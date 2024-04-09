@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  list-style: none;
+}
+.blur {
+  opacity: 0.6;
+}
+.header .top-header-bar {
+  height: 36px;
+  background-color: #3f3f3f;
+}
+.top-header-bar .top-header-left {
+  height: 36px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.top-header-bar .top-header-right ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12.8px;
+  font-weight: 500;
+}
+.top-header-bar .top-header-right .item-list {
+  border-right: 1px solid #fff;
+}
+.header-bar {
+  background-color: #ff6900;
+  height: 80px;
+}
+.header-bar .logo-hadochi {
+  max-height: 80px;
+}
+.header-bar .form-header .select-header {
+  font-size: 14px;
+  color: #706b6b;
+  width: 74px;
+  box-shadow: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 40px;
+  border: none;
+  border-right: 1px solid #dedede;
+}
+.header-bar .form-header .search-file {
+  font-size: 14px;
+  box-shadow: none;
+  width: 380px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.header-bar .form-header .btn-search {
+  background-color: #f1ba47;
+  font-size: 20px;
+  padding: 5px 13px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.header-bar .top-bar-right .text-product-header {
+  font-size: 14.6px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+.top-bar-right .number {
+  font-size: 16px;
+  font-weight: 700;
+}
+.top-bar-right .item-sp-text {
+  font-size: 12.5px;
+}
+.item-icon-header {
+  font-size: 22px;
+  padding: 0 4px;
+}
+.bottom-header-bar {
+  background-color: #fff;
+}
+.bottom-header-bar .nav-bar-right {
+  width: 300px;
+  height: 100%;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+.bottom-header-bar .nav-bar-right .menu-bar-header {
+  font-size: 20px;
+}
+.bottom-header-bar .nav-bar-right .text-menu-header {
+  font-size: 15px;
+  font-weight: 600;
+}
+.bottom-header-bar .nav-bar-main .list-navb a {
+  text-decoration: none;
+  color: #706b6b;
+  font-size: 12.8px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+.bottom-header-bar .nav-bar-main .list-navb a:hover {
+  color: #ff6900;
+  cursor: pointer;
+}
+.main {
+  background-color: #f4f4f4;
+  height: 2986px;
+}
+.main .menu-contact {
+  background-color: #fff;
+}
+.list-contact {
+  border-bottom: #d8cdcd 1px solid;
+  padding: 12px 15px;
+}
+.img-contact {
+  width: 20px;
+  height: 20px;
+}
+.main .menu-contact .items-img--contact {
+  height: 100%;
+  width: 100%;
+}
+.text-menu-contact {
+  font-size: 14.5px;
+  color: #808080;
+}
+.icon-r--contact {
+  font-size: 14.5px;
+  color: #808080;
+}
+.banner-l .items-banner-l {
+  width: 100%;
+  height: 100%;
+}
+.banner-r .items-banner-r {
+  width: 100%;
+  height: 100%;
+}
+.header-fs {
+  background-color: #ff6900;
+  color: #fff;
+}
+.heading-l-fs {
+  font-size: 22px;
+  font-weight: 700;
+}
+.icon-bolt {
+  color: #ff6900;
+  background-color: #fff;
+  font-size: 17px;
+  padding: 6px 8px;
+  border-radius: 50%;
+}
+.heading-r-fs {
+  font-size: 16px;
+  font-weight: 700;
+}
+.time-fs {
+  background-color: #fff;
+  color: #333;
+  margin-left: 8px;
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  font-weight: 700;
+  padding: 4px 33px 0;
+  line-height: 1;
+}
+.time-text-fs {
+  font-size: 8.4px;
+  color: #a89e9e;
+}
+.contact-fs {
+  background-color: #f6e0d0;
+}
+.decs-items {
+  border: #d3cccc solid 1px;
+}
+
+.img-card {
+  width: 100%;
+  height: 288px;
+}
+.card-desc {
+  background-color: #fff;
+  padding: 0px 10px 30px;
+}
+.text-card {
+  font-size: 15px;
+  font-weight: 700;
+  color: #494646;
+}
+.price-sale-card {
+  color: #cc2338;
+  font-size: 16px;
+  font-weight: 700;
+}
+.price-nosale-card {
+  text-decoration: line-through;
+  color: #cc2338;
+  opacity: 0.7;
+}
+.sale-percent-card {
+  background-color: #cc2338;
+  color: #fff;
+  width: 51px;
+  height: 19px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+.heading-prs {
+  border-bottom: 1px solid #ebe1e1;
+}
+.pr-selling {
+  background-color: #fff;
+}
+.heading-ps {
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+  border-left: #ff6900 6px solid;
+}
+.service {
+  margin: 0 10px;
+}
+.item-sv {
+  background-color: #fff;
+}
+.icon-check {
+  font-size: 22px;
+  color: #ff6900;
+  padding: 13.5px 12px 10px;
+  background-color: #ff6900;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.heading-sv {
+  font-size: 17px;
+  font-weight: 700;
+}
+.text-sv {
+  line-height: 1.6;
+  font-size: 16px;
+}
+.partners {
+  background-color: #fff;
+}
+.logo_pn {
+  max-width: 173px;
+  margin: 0 20px;
+}
+.logo_pn_vn {
+  max-width: 112px;
+}
+.advisory {
+  background-color: #fff;
+}
+.main-advisory {
+  background-color: #f6e0d0;
+  padding: 30px;
+  height: 170px;
+}
+.main-advisory.text-center {
+  position: absolute;
+  bottom: -245px;
+  left: 0;
+  right: 0;
+}
+.heading-advisory {
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-form {
+  min-width: 317px;
+  height: 38px;
+  outline: none;
+  border: #ddd2d2 1px solid;
+}
+.btn-call {
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff6900;
+}
+.text-advisory {
+  font-size: 16px;
+}
+.footer {
+  background-color: #fff;
+  padding-top: 104px;
+}
+.top-footer {
+  border-bottom: #eee5e5 1px solid;
+}
+.heading-contact {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: #ff6900 2px solid;
+  word-spacing: 3px;
+  padding-bottom: 12px;
+}
+.icon-contact {
+  font-size: 16px;
+  color: #ff6900;
+}
+.text-contact {
+  font-size: 15.2px;
+  color: #3f3f3f;
+  line-height: 1.6;
+}
+.item-contact {
+  padding-top: 10px;
+}
+.list-main .list-items-ft a {
+  text-decoration: none;
+  color: #494949;
+  font-size: 16px;
+}
+.list-main .list-items-ft a:hover {
+  color: #ff6900;
+}
+.item-ft {
+  border-bottom: #ebe4e4 1px solid;
+  padding: 6px 0;
+}
+.item-ft-sp {
+  border-bottom: #ebe4e4 1px solid;
+  padding: 6px 0;
+  min-width: 282px;
+}
+.heading-bt-ft {
+  font-size: 16px;
+  font-weight: 700;
+  color: #484848;
+}
+.img-bt-ft {
+  height: 60px;
+}
+.ft-text {
+  font-size: 14.2px;
+  font-weight: 700;
+  color: #484848;
+}

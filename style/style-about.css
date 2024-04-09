@@ -1,0 +1,241 @@
+/* header */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.blur{
+    opacity: 0.6;
+}
+.header .top-header-bar{
+    height: 36px;
+    background-color:#3f3f3f;
+}
+.top-header-bar .top-header-left{
+    height: 36px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.top-header-bar .top-header-right ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12.8px;
+    font-weight: 500;
+}
+.top-header-bar .top-header-right .item-list{
+    border-right: 1px solid #fff;
+}
+.top-header-right ul{
+    list-style: none;
+}
+.header-bar{
+    background-color: #ff6900;
+    height: 80px;
+}
+.header-bar .logo-hadochi{
+    max-height: 80px;
+}
+.header-bar .form-header .select-header{
+    font-size: 14px;
+    color: #706b6b;
+    width: 74px;
+    box-shadow: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    border: none;
+    border-right: 1px solid #dedede
+}
+.header-bar .form-header .search-file{
+    font-size: 14px;
+    box-shadow: none;
+    width: 380px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.header-bar .form-header .btn-search{
+    background-color: #f1ba47;
+    font-size: 20px;
+    padding: 5px 13px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.header-bar .top-bar-right .text-product-header{
+    font-size: 14.6px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.top-bar-right .number{
+    font-size: 16px;
+    font-weight: 700;
+}
+.top-bar-right .item-sp-text{
+    font-size: 12.5px;
+}
+.item-icon-header{
+    font-size: 22px;
+    padding: 0 4px;
+}
+.bottom-header-bar{
+    background-color: #fff;
+}
+.bottom-header-bar ul{
+    list-style: none;
+}
+.bottom-header-bar .nav-bar-right{
+    width: 300px ;
+    height: 100%;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+.bottom-header-bar .nav-bar-right .menu-bar-header{
+    font-size: 20px;
+}
+.bottom-header-bar .nav-bar-right .text-menu-header{
+    font-size: 15px;
+    font-weight: 600;
+}
+.bottom-header-bar .nav-bar-main .list-navb a{
+    text-decoration: none;
+    color: #706b6b;
+    font-size: 12.8px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+.bottom-header-bar .nav-bar-main .list-navb a:hover{
+    color: #e67225;
+    cursor: pointer;
+}
+/* main */
+.main{
+    background-color: #f4f4f4;
+    padding: 30px 0 ;
+    height: 2787px;
+}
+.main .title-main .heading-main{
+    position: relative;
+    font-size: 28px;
+    color: #2e2e2e;
+    font-weight: 700;
+}
+.main .title-main .heading-main::after{
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 548px;
+    width: 30px;
+    height: 3px;
+    background-color: #ff6900;
+}
+.main .img-main{
+    width: 100%;
+}
+.img-main .image-building{
+    width: 100%;
+}
+.desc-main{
+    text-align: justify;
+}
+.heading-desc{
+    font-size: 25.6px;
+    color: #3f3f3f;
+}
+.text-desc{
+    line-height: 1.6;
+    color: #585454;
+    margin-bottom: 20px;
+}
+/* footer */
+.advisory{
+    background-color: #fff;
+}
+.main-advisory{
+    background-color: #f6e0d0;
+    padding: 30px;
+    height: 170px;
+}
+.main-advisory.text-center {
+    position: absolute;
+    bottom: -295px;
+    left: 0;
+    right: 0;
+}
+.heading-advisory{
+    font-size: 20px;
+    font-weight: 700;
+}
+.input-form{
+    min-width: 317px;
+    height: 38px;
+    outline: none;
+    border: #ddd2d2 1px solid;
+}
+.btn-call{
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff6900;
+}
+.text-advisory{
+    font-size: 16px;
+}
+.footer{
+    background-color: #fff;
+    padding-top: 104px;
+}
+.top-footer{
+    border-bottom: #eee5e5 1px solid;
+    
+}
+.heading-contact{
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: #ff6900 2px solid ;
+    word-spacing: 3px;
+    padding-bottom: 12px;
+}
+.icon-contact{
+    font-size: 16px;
+    color: #ff6900;
+}
+.text-contact{
+    font-size: 15.2px;
+    color: #3f3f3f;
+    line-height: 1.6;
+}
+.item-contact{
+    padding-top: 10px;
+}
+.list-main .list-items-ft a {
+    text-decoration: none;
+    color: #494949;
+    font-size: 16px;
+}
+.list-main .list-items-ft a:hover{
+    color:#ff6900 ;
+}
+.item-ft{
+    border-bottom: #ebe4e4 1px solid;
+    padding: 6px 0;
+}
+.item-ft-sp{
+    border-bottom: #ebe4e4 1px solid;
+    padding: 6px 0;
+    min-width: 282px;
+}
+.heading-bt-ft{
+    font-size: 16px;
+    font-weight: 700;
+    color: #484848;
+}.img-bt-ft{
+    height: 60px;
+}
+.ft-text{
+    font-size: 14.2px;
+    font-weight: 700;
+    color: #484848;
+}
