@@ -5,6 +5,9 @@
   font-family: "Mulish", sans-serif;
   list-style: none;
 }
+.mb-14px{
+  margin-bottom: 14px;
+}
 .blur {
   opacity: 0.6;
 }
@@ -106,10 +109,11 @@
 }
 .main {
   background-color: #f4f4f4;
-  height: 2986px;
+  height: 2938px;
 }
 .main .menu-contact {
   background-color: #fff;
+  width: 300px;
 }
 .list-contact {
   border-bottom: #d8cdcd 1px solid;
